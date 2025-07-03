@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    }
+  ],
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "outDir": "../../.moon/cache/types/libs/lib-greeting",
+    "paths": {}
+  }
+}

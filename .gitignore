@@ -1,0 +1,28 @@
+### MacOS ###
+.DS_Store
+
+### NodeJS ###
+node_modules
+
+### Yarn ###
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+### Typescript ###
+dist
+lib
+
+# Build cache manifests
+*.tsbuildinfo
+
+### Moon ###
+.moon/cache
+.moon/docker
+
+### Debug ###
+out

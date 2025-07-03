@@ -1,0 +1,7 @@
+stack: backend
+language: typescript
+type: application
+
+toolchain:
+  node:
+    version: 22.16.0

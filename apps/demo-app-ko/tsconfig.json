@@ -1,0 +1,35 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/apps/demo-app-ko",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@my-org/lib-greeting": [
+        "../../libs/lib-greeting/src/index.ts"
+      ],
+      "@my-org/lib-greeting/*": [
+        "../../libs/lib-greeting/src/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../../libs/lib-greeting"
+    }
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*.spec.ts"
+  ]
+}

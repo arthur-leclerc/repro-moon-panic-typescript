@@ -1,0 +1,15 @@
+node:
+  version: 22.16.0
+  packageManager: yarn
+  yarn:
+    version: 4.9.2
+
+  addEnginesConstraint: true
+  dedupeOnLockfileChange: true
+  dependencyVersionFormat: workspace
+  syncProjectWorkspaceDependencies: true
+
+typescript:
+  routeOutDirToCache: true
+  syncProjectReferences: true
+  syncProjectReferencesToPaths: true

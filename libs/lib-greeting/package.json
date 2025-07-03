@@ -1,0 +1,27 @@
+{
+  "name": "@my-org/lib-greeting",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "A simple greeting library written in TypeScript.",
+  "private": true,
+  "files": [
+    "lib/**/*",
+    "src/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "24.0.10",
+    "typescript": "5.7.3"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./*": {
+      "types": "./lib/*.d.ts",
+      "default": "./lib/*.js"
+    },
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  }
+}

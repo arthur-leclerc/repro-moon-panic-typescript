@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["es2024", "esnext.asynciterable"],
+    "module": "commonjs",
+    "target": "es2024",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noErrorTruncation": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "pretty": true,
+    "verbatimModuleSyntax": false,
+    "useUnknownInCatchVariables": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "my-org",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "@types/node": "24.0.10",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": "22.16.0",
+    "yarn": "4.9.2"
+  },
+  "packageManager": "yarn@4.9.2"
+}

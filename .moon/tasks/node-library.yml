@@ -1,0 +1,22 @@
+$schema: "https://moonrepo.dev/schemas/tasks.json"
+
+fileGroups:
+  sources:
+    - src/**/*
+
+implicitDeps:
+  - ^:build
+
+implicitInputs:
+  - package.json
+
+tasks:
+  build:
+    command: tsc
+    args:
+      - --project
+      - tsconfig.lib.json
+    inputs:
+      - "@group(sources)"
+    outputs:
+      - lib/

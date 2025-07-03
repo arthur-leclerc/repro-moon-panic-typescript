@@ -1,0 +1,8 @@
+projects:
+  globs:
+    - apps/**/moon.yml
+    - libs/**/moon.yml
+
+vcs:
+  defaultBranch: main
+  manager: git
